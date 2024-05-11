@@ -1,0 +1,36 @@
+{
+    "reg_term": {
+        "l1w": 1.0,
+        "simple": 0.1,
+        "tv": 10.0,
+        "tv2": 10.0,
+        "lA": 10.0,
+        "flux": 10000.0
+    },
+    "data_term": {
+        "vis": 1.0,
+        "amp": 0.0,
+        "cphase": 0.0,
+        "logcamp": 0.0
+    },
+    "img": "/content/mrbeam/mr_beam/mrpiay/ring_16.fits",
+    "uvf": "/content/mrbeam/mr_beam/mrpiay/ring_16.uvfits",
+    "rescaling": 0.02,
+    "zbl": 0.6,
+    "grid_size": 7,
+    "seed_initial": 12,
+    "prior_fwhm": 100.0,
+    "num_cores": 64,
+    "generations": 10,
+    "neighbours": 6,
+    "decomposition_method": "grid",
+    "decomposition_seed": 12,
+    "CR": 1.0,
+    "F": 0.5,
+    "eta_m": 20.0,
+    "realb": 0.9,
+    "limit": 2,
+    "preserve_diversity": true,
+    "pop_size": 1716,
+    "mode": "pareto"
+}
